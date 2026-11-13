@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "fontFamilies": [
     {
       "key": "site-sans",
@@ -78,6 +78,40 @@
               "localized": true,
               "required": true,
               "maxLength": 50
+            }
+          ]
+        },
+        {
+          "key": "faq",
+          "type": "faq",
+          "label": "Buyer questions",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "items",
+              "type": "repeat",
+              "label": "Questions",
+              "required": true,
+              "maxItems": 20,
+              "fields": [
+                {
+                  "key": "question",
+                  "type": "text",
+                  "label": "Question",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 180
+                },
+                {
+                  "key": "answer",
+                  "type": "textarea",
+                  "label": "Answer",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 600
+                }
+              ]
             }
           ]
         },

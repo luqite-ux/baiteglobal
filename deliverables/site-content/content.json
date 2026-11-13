@@ -3,6 +3,7 @@
     "home": {
       "order": [
         "hero",
+        "faq",
         "seo"
       ],
       "modules": {
@@ -24,6 +25,139 @@
             "secondary_label": {
               "en": "Request a Quote"
             }
+          }
+        },
+        "faq": {
+          "hidden": false,
+          "values": {
+            "items": [
+              {
+                "id": "models",
+                "question": {
+                  "en": "What specifications or models are available?"
+                },
+                "answer": {
+                  "en": "Single-layer and double-layer configurations are available; the final model is confirmed against the material and throughput requirement."
+                }
+              },
+              {
+                "id": "sample",
+                "question": {
+                  "en": "Can you provide samples?"
+                },
+                "answer": {
+                  "en": "The equipment is not supplied as a sample. Representative material can be reviewed for configuration selection."
+                }
+              },
+              {
+                "id": "datasheet",
+                "question": {
+                  "en": "Do you provide technical data sheets or test reports?"
+                },
+                "answer": {
+                  "en": "Technical data sheets are available for the listed machine models."
+                }
+              },
+              {
+                "id": "moq",
+                "question": {
+                  "en": "What is the minimum order quantity?"
+                },
+                "answer": {
+                  "en": "The minimum order quantity is one unit."
+                }
+              },
+              {
+                "id": "pricing",
+                "question": {
+                  "en": "Do you offer tiered pricing?"
+                },
+                "answer": {
+                  "en": "Pricing is quoted by configuration rather than by a fixed tier."
+                }
+              },
+              {
+                "id": "included",
+                "question": {
+                  "en": "Does the price include packaging, shipping or taxes?"
+                },
+                "answer": {
+                  "en": "The quoted scope is confirmed in the formal quotation."
+                }
+              },
+              {
+                "id": "bulk",
+                "question": {
+                  "en": "Do you offer long-term cooperation or bulk pricing?"
+                },
+                "answer": {
+                  "en": "Commercial terms can be discussed for larger quantities."
+                }
+              },
+              {
+                "id": "fluctuation",
+                "question": {
+                  "en": "Can pricing change?"
+                },
+                "answer": {
+                  "en": "Pricing may change with materials and other order conditions."
+                }
+              },
+              {
+                "id": "lead",
+                "question": {
+                  "en": "What is the normal production lead time?"
+                },
+                "answer": {
+                  "en": "A normal order is typically scheduled for 15–20 days; larger quantities may require additional time."
+                }
+              },
+              {
+                "id": "peak",
+                "question": {
+                  "en": "Does peak season extend lead time?"
+                },
+                "answer": {
+                  "en": "The supplied production plan does not normally extend lead time for peak season."
+                }
+              },
+              {
+                "id": "urgent",
+                "question": {
+                  "en": "Can urgent production be arranged?"
+                },
+                "answer": {
+                  "en": "Expedited production can be reviewed against the current production schedule."
+                }
+              },
+              {
+                "id": "progress",
+                "question": {
+                  "en": "Can you provide production progress updates?"
+                },
+                "answer": {
+                  "en": "Production progress updates can be provided."
+                }
+              },
+              {
+                "id": "qc",
+                "question": {
+                  "en": "Do you have a quality control process?"
+                },
+                "answer": {
+                  "en": "Yes. Equipment is checked through the production and outgoing inspection process."
+                }
+              },
+              {
+                "id": "inspection",
+                "question": {
+                  "en": "Do you support third-party inspection?"
+                },
+                "answer": {
+                  "en": "Third-party inspection is not listed as a standard service; outgoing inspection is performed before shipment."
+                }
+              }
+            ]
           }
         },
         "seo": {
