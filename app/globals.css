@@ -1,8 +1,8 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
-.hq-responsive-type { font-size: var(--hq-font-size-mobile, inherit); }
-@media (min-width: 1024px) { .hq-responsive-type { font-size: var(--hq-font-size-desktop, inherit); } }
+.hq-responsive-type { font-size: var(--hq-font-size-mobile, 40px); }
+@media (min-width: 1024px) { .hq-responsive-type { font-size: var(--hq-font-size-desktop, 64px); } }
 
 @custom-variant dark (&:is(.dark *));
 
