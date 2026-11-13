@@ -1,0 +1,30 @@
+{
+  "customer": "合肥百特光电科技有限公司",
+  "review_scope": "E:\\E暂存\\1579-环球出海合肥百特光电项目对接群",
+  "items": [
+    {
+      "source": "E:\\E暂存\\1579-环球出海合肥百特光电项目对接群\\营业执照.jpg",
+      "content": "full business licence scan",
+      "reason": "privacy_sensitive",
+      "evidence": "D:\\Cursor\\Grand\\dulizhan\\baiteglobal\\deliverables\\intake-findings.md",
+      "alternative": "transcribe verified corporate facts without publishing personal identifiers",
+      "impact": "no loss of buyer-facing product or certification evidence"
+    },
+    {
+      "source": "E:\\E暂存\\1579-环球出海合肥百特光电项目对接群\\企业资料&产品&FAQ问题收集表.xlsx:FAQ问题!B30:D30",
+      "content": "one-year warranty statement",
+      "reason": "legal_or_policy_prohibited",
+      "evidence": "AGENTS.md prohibition on warranty/guarantee commitments",
+      "alternative": "neutral order-specific technical support wording only",
+      "impact": "forbidden commitment is not published"
+    },
+    {
+      "source": "E:\\E暂存\\1579-环球出海合肥百特光电项目对接群\\三大体系认证证书.pdf",
+      "content": "148 internal scan image fragments",
+      "reason": "not_public_buyer_value",
+      "evidence": "D:\\Cursor\\Grand\\dulizhan\\baiteglobal\\deliverables\\intake-findings.md",
+      "alternative": "publish all six complete rendered certificate pages",
+      "impact": "all three certificates remain individually visible in Chinese and English"
+    }
+  ]
+}

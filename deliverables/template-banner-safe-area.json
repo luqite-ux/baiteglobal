@@ -1,0 +1,22 @@
+{
+  "issue_id": "VIS-BANNER-COPY-SAFE-AREA",
+  "pass": true,
+  "banner_count": 3,
+  "measurement_count": 6,
+  "overlay_review_issue_id": "VIS-BANNER-OVERLAY-SUBJECT-CLARITY",
+  "overlay_review_count": 6,
+  "overlay_review_pass": true,
+  "required_viewports": ["desktop", "mobile_390"],
+  "violations": [],
+  "source_banner_reconciliation": {
+    "issue_id": "DATA-BANNER-SOURCE-TO-LIVE-RECONCILIATION",
+    "pass": true,
+    "source_count": 3,
+    "source_inventory_evidence": "deliverables/banner-layout-manifest.json",
+    "items": [
+      {"media_id":"banner-1","source_locator":"E:\\E暂存\\1579-环球出海合肥百特光电项目对接群\\banner\\1.jpg","source_hash":"322882ef23ee4a058f71cfb6d91b73d78348bedaf317d115ef8cac600f04ed1e","disposition":"publish_banner","slide_id":"optical-sorting-systems","configured":true,"browser_reachable":true,"browser_evidence":{"desktop":"in-app Browser 1440x1000 homepage","mobile_390":"in-app Browser 390x844 homepage"}},
+      {"media_id":"banner-2","source_locator":"E:\\E暂存\\1579-环球出海合肥百特光电项目对接群\\banner\\2.jpg","source_hash":"e9d8df036303c8cb6d012a6aea730f11adac33d5b0e5d6b3cdb3113608c17021","disposition":"publish_banner","slide_id":"sorting-path","configured":true,"browser_reachable":true,"browser_evidence":{"desktop":"in-app Browser 1440x1000 homepage","mobile_390":"in-app Browser 390x844 homepage"}},
+      {"media_id":"banner-3","source_locator":"E:\\E暂存\\1579-环球出海合肥百特光电项目对接群\\banner\\3.jpg","source_hash":"0dcbd528d60d4a74d92a5f7469304e5c4c0e9d6e343231b6744d981ac9356e7f","disposition":"publish_banner","slide_id":"manufacturing-evidence","configured":true,"browser_reachable":true,"browser_evidence":{"desktop":"in-app Browser 1440x1000 homepage","mobile_390":"in-app Browser 390x844 homepage"}}
+    ]
+  }
+}

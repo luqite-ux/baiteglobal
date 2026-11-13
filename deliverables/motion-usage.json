@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "queries": [
+    {
+      "query": "scroll",
+      "at": "2026-11-13T04:27:11.218Z",
+      "catalogHash": "2d190f64d6275820fc8fb818f19c0f360155d8f4545790b900628e67c200afdd",
+      "ids": [
+        "original-scroll-motion",
+        "original-parallax-motion",
+        "original-header-motion"
+      ]
+    },
+    {
+      "query": "hover",
+      "at": "2026-11-13T04:27:11.403Z",
+      "catalogHash": "2d190f64d6275820fc8fb818f19c0f360155d8f4545790b900628e67c200afdd",
+      "ids": [
+        "original-hover-motion",
+        "original-cta-motion"
+      ]
+    }
+  ],
+  "decision": "undecided",
+  "items": []
+}

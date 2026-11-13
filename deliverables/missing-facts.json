@@ -1,0 +1,23 @@
+{
+  "customer": "合肥百特光电科技有限公司",
+  "items": [
+    {
+      "id": "product-model-label-1",
+      "status": "implemented_with_pending_confirmation",
+      "question": "Confirm whether BTKS-K1600D image label corresponds to Excel model BTKS-1600D.",
+      "current_handling": "Publish Excel model and retain reversible image mapping."
+    },
+    {
+      "id": "product-model-label-2",
+      "status": "implemented_with_pending_confirmation",
+      "question": "Confirm whether BTKS-K1600DW image label corresponds to Excel model BTKAS-K1600DW.",
+      "current_handling": "Publish Excel model and retain reversible image mapping."
+    },
+    {
+      "id": "customer-cases",
+      "status": "no_source_evidence",
+      "question": "No verifiable customer case names, partner logos or project records were supplied.",
+      "current_handling": "Do not invent endorsements; keep backend-driven case structure ready."
+    }
+  ]
+}

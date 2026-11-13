@@ -1,0 +1,43 @@
+{
+  "context": {
+    "projectId": "project-8cc2b8eb-54c2-4f59-872c-38b0933f447a",
+    "runId": "run-48889c68-d53b-4e86-b083-6ba03f9a8428",
+    "purpose": "build"
+  },
+  "scope": "current-run-only",
+  "otherRunIds": [],
+  "checkedAt": "2026-11-13T04:29:31.942Z",
+  "complete": false,
+  "issues": [
+    "QUERY_FAILED",
+    "DELIVERY_UNRECORDED"
+  ],
+  "pending": 0,
+  "failedQueryCount": 1,
+  "queries": [
+    {
+      "receiptPath": "D:\\Cursor\\Grand\\dulizhan\\baiteglobal\\deliverables\\case-query-failed-3d84d143-636a-4471-8b85-56a771a636d3.json",
+      "requestId": "failed-3d84d143-636a-4471-8b85-56a771a636d3",
+      "request": {
+        "match": "fuzzy",
+        "sort": "rating",
+        "limit": "12",
+        "query": "mineral optical sorter industrial equipment manufacturer",
+        "industry": "mining machinery"
+      },
+      "status": 0,
+      "decision": "none",
+      "decisionSent": true,
+      "caseSlugs": [],
+      "reason": "案例库原生检索没有返回适配矿石光电分选设备的生产候选；改用四个已实际审阅的海外同行，仅借鉴产品选型、技术说明、制造证据和认证独立展示结构，不复制其事实、图片、客户或性能主张。",
+      "externalReferences": [
+        "https://steinertglobal.com/applications/mining/ore-sorting/",
+        "https://www.tomra.com/en-ie/mining/products",
+        "https://redwave.com/en/solutions/mining",
+        "https://hpysorting.com/en/products"
+      ]
+    }
+  ],
+  "deliveries": [],
+  "note": "Current run only; other runs are not certified. Adoption is agent-reported, not Owner acceptance or proven design improvement."
+}

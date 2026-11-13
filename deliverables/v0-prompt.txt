@@ -1,0 +1,50 @@
+Create a complete, runnable Next.js 16 App Router website for Hefei Baite Optoelectronics Technology Co., Ltd. (brand WCBEST), an English-first overseas industrial inquiry site for optical mineral sorting machinery. Keep locale-aware content/data interfaces so additional languages can be enabled later, but do not publish empty locale pages.
+
+Preserve the user request exactly in scope: carefully use the Excel/PDF-derived product facts, display product parameters on their matching product details, place installed-equipment evidence in Cases, separate every certificate record, and show verified manufacturing evidence. The internal case library returned no suitable production candidate; use the reviewed overseas peers only for information architecture: STEINERT for application-first explanation, TOMRA for comparable product selection, REDWAVE for distinct technology/application/certification sections, and HPY for industrial portfolio/manufacturing rhythm. Do not copy any competitor facts, images, customer marks, metrics, copy or proprietary terminology.
+
+AUTHORITY AND FACTS
+- Formal company: Hefei Baite Optoelectronics Technology Co., Ltd.; Chinese legal name: 合肥百特光电科技有限公司. Brand: WCBEST.
+- Formal domain: baiteglobal.com. Public/admin email: info@baiteglobal.com. Phone: +86 137 0560 8666. Address: 200 m north of the intersection of Chuangxin Avenue and Juxing Road, Shangpai Town, Feixi County, Hefei, Anhui, China.
+- Verified company facts: established 2015-11-09; 5,000 m² facility; four standard workshops; stated monthly capacity 20–30 units. Use these only in the stated company/manufacturing context.
+- Four independent products, never merge them: BTFT-S6 Powder Sorter (3275×2058×2510 mm, 7 kW, 16–120 mesh); BTKS-1600DW-AI AI Mineral Sorter (3890×2610×2540 mm, 8 kW); BTKS-1600D Dry Rapid Belt Sorter (3840×2350×2530 mm, 7 kW; image filename BTKS-K1600D.png is only a reconciled media filename); BTKAS-K1600DW Wet & Dry Integrated Rapid Belt Sorter (3840×2350×2530 mm, stated 3.5T; image filename BTKS-K1600DW.png is only a reconciled media filename). Create extensible product data, catalog/filter UI, independent detail routes and readable specification tables. Do not infer any missing units or performance.
+- Management systems: ISO 9001:2015 certificate 18926Q01590R001, ISO 14001:2015 certificate 18926E01106R001, ISO 45001:2018 certificate 18926S01025R001; issued 2026-07-22, valid through 2029-07-21, scoped to design/development/assembly/sales of ore color sorting machines. Make three distinct certificate records and a route designed to show all six source pages after Codex fills them.
+- Old-site installed-equipment images will be filled later as twelve anonymous case records. Design /cases and a homepage preview without customer names, locations, project outcomes or fabricated metrics.
+- News must be a backend-driven list/detail capability with an honest empty state. Do not create demo news.
+- Supported FAQ facts include one-unit MOQ, configuration-dependent pricing, quality inspection and source-stated lead-time context. Completely exclude the supplied one-year warranty answer and every warranty/guarantee synonym.
+
+ATTACHMENTS AND BRAND
+- Use attached LOGO.png in header and footer with contain fit and home link. Derive a clean square favicon from the verified WCBEST mark; remove all v0/Next.js/template icons and conflicting declarations.
+- Use every attached banner image (1.jpg, 2.jpg, 3.jpg) as the three-slide homepage hero. They are customer-designated visual assets but do not claim that their depicted robots/factory scenery belongs to the customer.
+- Banner 1: subject right, copy left; headline “Optical Sorting Systems for Mineral Processing”, CTA /products. Banner 2: subject left, copy right; headline “Choose the Sorting Path Around Your Material”, CTA /applications. Banner 3: subject right, copy left; headline “Manufacturing Evidence You Can Review”, CTA /manufacturing. Do not repeat the same headline.
+- Each slide must store its own copy side, focal point and mobile strategy. Use real DOM text/controls. Never use a global dark overlay or parent opacity. If 390px overlay safety fails, put copy in a separate panel below the image. Manual controls, keyboard, touch, pause and reduced-motion are required.
+- Use the four attached machine PNGs only as representative visuals. Keep each complete with object-fit: contain on a clean continuous light image stage. Do not crop machinery, add dirty grey/black gradients, or make a white framed photo float inside another card. Codex will fill all remaining products/factory/cert/case media later.
+
+VISUAL SYSTEM
+Build a premium, precise industrial system from the verified WCBEST teal/orange logo: clean light mineral/engineering surfaces, deep neutral text, restrained teal structure and orange action accents, high contrast, crisp technical linework, modest radii, strong editorial spacing and no generic blue-tech template. Avoid glowing orbs, particles, heavy neon, excessive glassmorphism, huge empty cards and repeated three-card blocks. Product/factory imagery must visually fuse with its section background. Semantic process/application cards need distinct, consistent line icons rather than numbers or emoji.
+
+ROUTES AND NAVIGATION
+The header must explicitly contain Home and logo-home. Build independent routes: /, /products, /products/[slug], /applications, /technology, /manufacturing, /cases, /certifications, /about, /news, /news/[slug], /contact, plus a clear 404. Every actual link to /news must be labeled exactly “News”. Classification/product cards must have real non-empty destinations, full-card primary activation, keyboard and 390px touch support.
+
+HOMEPAGE ORDER WITH STABLE SECTION IDS
+1 hero — three distinct attached banners and offer/selection CTAs.
+2 product-portfolio — all four verified models as the visual subject with distinct detail routes.
+3 application-matrix — powder, AI mineral, dry rapid-belt, and wet/dry workflows as application/selection paths, not success cases.
+4 sorting-technology — neutral feed → sensing/recognition → decision → separation explanation without unsupported performance.
+5 manufacturing-proof — layout for real factory photos and verified 5,000 m² / four workshops / 20–30 units per month.
+6 quality-certifications — three independent systems and six-page viewing structure.
+7 installed-cases — anonymous installed-equipment evidence with no invented clients/results.
+8 company-story — verified identity and scope, integrated real-image layout without white photo frame.
+9 faq-cooperation — balanced grouped accordion; all supported answers reachable; no warranty.
+10 contact-rfq — concise company introduction, full address/email/phone and balanced product-aware RFQ form; avoid a short empty sidebar next to a long form.
+
+MOTION
+Implement four coherent scenes: short hero crossfade with per-slide copy entrance; real viewport-triggered section and per-card reveal; reading-order process/certificate node reveal; short product/case/FAQ/nav/form feedback. Base content stays visible, no global timeout marks off-screen sections complete, fallback-visible is separate from hasAnimated, every repeated card participates, mobile movement is reduced, and prefers-reduced-motion shows all content immediately.
+
+INQUIRY UI
+No prices, cart, checkout or payment. Build real form UI/states suitable for name, email, company, phone/WhatsApp, product/model, material/application, capacity or feed condition, message and image CAPTCHA. Do not simulate success with alert, console.log or setTimeout; leave backend wiring to Codex. Product details carry visible product context into the inquiry.
+
+TECHNICAL AND SEO
+Use maintainable components, sensible Server/Client boundaries, accessible focus and contrast, responsive 390px behavior, image sizing and reduced motion. Include metadata patterns, canonical-ready routes, Open Graph/Twitter placeholders tied to site data, Organization/WebSite/Product/Article/Breadcrumb schema structures without invented price/reviews/offers, robots/sitemap patterns, one h1 per page, complete alt text and no conflicting favicon assets. All public copy must sound like buyer-facing English, never internal audit language such as “customer provided”, “verified by us”, “according to materials”, “unverified”, or “B2B”.
+
+DELIVERABLE
+Return the full runnable source for all listed routes and components, not only screenshots. Use only the supplied facts and attachments. Known gaps that must remain honest: named customers, partner logos, project locations/results, export markets, social channels and real news articles are not supplied. Do not invent them. Do not connect Supabase, R2, the shared admin, Vercel or deployment; Codex will perform engineering integration after source download.

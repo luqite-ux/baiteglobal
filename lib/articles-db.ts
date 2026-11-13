@@ -1,0 +1,5 @@
+import { getSupabaseClient, tenantId } from '@/lib/supabase'
+import type { NewsPost } from '@/lib/data/news'
+function pick(v:Record<string,string>|null,legacy:string|null){return v?.en?.trim()||Object.values(v??{}).find(Boolean)||legacy?.trim()||''}
+export async function getPublishedArticles():Promise<NewsPost[]>{const db=getSupabaseClient(),id=tenantId();if(!db||!id)return[];const{data,error}=await db.from('articles').select('slug,title,title_i18n,excerpt,excerpt_i18n,content,content_i18n,featured_image,published_at,updated_at,sort_order').eq('tenant_id',id).eq('is_published',true).order('sort_order',{ascending:true}).order('published_at',{ascending:false});if(error||!data)return[];return data.map(r=>({slug:r.slug,title:pick(r.title_i18n,r.title),excerpt:pick(r.excerpt_i18n,r.excerpt),body:[pick(r.content_i18n,r.content)],publishedAt:r.published_at||r.updated_at,updatedAt:r.updated_at,coverImage:r.featured_image?{src:r.featured_image,alt:pick(r.title_i18n,r.title)}:undefined})).filter(x=>x.slug&&x.title)}
+export async function getPublishedArticle(slug:string){return(await getPublishedArticles()).find(x=>x.slug===slug)??null}

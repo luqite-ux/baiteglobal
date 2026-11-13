@@ -1,0 +1,12 @@
+{
+  "domain": "baiteglobal.com",
+  "adapterVersion": "1",
+  "capabilities": [
+    "preview",
+    "article_order"
+  ],
+  "modules": [
+    "home.hero",
+    "home.seo"
+  ]
+}

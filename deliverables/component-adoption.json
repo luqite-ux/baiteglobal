@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "projectId": "baiteglobal-07c3ebc1-ebc4-43ae-90c8-b50accde73ee",
+  "sections": [
+    {
+      "sectionId": "hero",
+      "query": "industrial hero carousel",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "Anli MCP search completed for hero; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "product-portfolio",
+      "query": "industrial product grid",
+      "candidates": [
+        {
+          "componentId": "react-bits:magic-bento",
+          "productionReady": false,
+          "confidence": 0.5
+        }
+      ],
+      "decision": "rejected",
+      "reason": "The available candidate has unknown production validation or conflicts with complete machinery presentation, reliable keyboard/touch behavior, and the section’s specific buyer information task.",
+      "receipt": "Anli MCP search completed for product-portfolio; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "application-matrix",
+      "query": "mining application matrix",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "Anli MCP search completed for application-matrix; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "sorting-technology",
+      "query": "sorting process steps",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "Anli MCP search completed for sorting-technology; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "manufacturing-proof",
+      "query": "factory editorial gallery",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "Anli MCP search completed for manufacturing-proof; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "quality-certifications",
+      "query": "certificate records gallery",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "Anli MCP search completed for quality-certifications; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "installed-cases",
+      "query": "industrial installation case gallery",
+      "candidates": [
+        {
+          "componentId": "react-bits:scroll-stack",
+          "productionReady": false,
+          "confidence": 0.55
+        }
+      ],
+      "decision": "rejected",
+      "reason": "The available candidate has unknown production validation or conflicts with complete machinery presentation, reliable keyboard/touch behavior, and the section’s specific buyer information task.",
+      "receipt": "Anli MCP search completed for installed-cases; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "company-story",
+      "query": "company image text",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "Anli MCP search completed for company-story; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "faq-cooperation",
+      "query": "grouped FAQ accordion",
+      "candidates": [
+        {
+          "componentId": "original-grouped-faq",
+          "productionReady": false,
+          "confidence": 0.67
+        }
+      ],
+      "decision": "rejected",
+      "reason": "The available candidate has unknown production validation or conflicts with complete machinery presentation, reliable keyboard/touch behavior, and the section’s specific buyer information task.",
+      "receipt": "Anli MCP search completed for faq-cooperation; no production-ready high-confidence complete package was returned."
+    },
+    {
+      "sectionId": "contact-rfq",
+      "query": "industrial RFQ form",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "Anli MCP search completed for contact-rfq; no production-ready high-confidence complete package was returned."
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "templateFamily": "industrial-machinery",
+  "customer": "Hefei Baite Optoelectronics Technology Co., Ltd.",
+  "navigation": [
+    {
+      "label": "Home",
+      "route": "/",
+      "level": 0,
+      "source": "Required explicit home entry",
+      "referencePeer": "hpysorting.com"
+    },
+    {
+      "label": "Products",
+      "route": "/products",
+      "level": 0,
+      "source": "Four verified product records",
+      "referencePeer": "tomra.com"
+    },
+    {
+      "label": "Applications",
+      "route": "/applications",
+      "level": 0,
+      "source": "Workbook use cases and old-site mineral application taxonomy",
+      "referencePeer": "steinertglobal.com"
+    },
+    {
+      "label": "Technology",
+      "route": "/technology",
+      "level": 0,
+      "source": "Optical/AI sorting buyer education supported by supplied product facts",
+      "referencePeer": "redwave.com"
+    },
+    {
+      "label": "Manufacturing",
+      "route": "/manufacturing",
+      "level": 0,
+      "source": "Verified facility facts and twelve customer factory images",
+      "referencePeer": "hpysorting.com"
+    },
+    {
+      "label": "Cases",
+      "route": "/cases",
+      "level": 0,
+      "source": "Twelve source-site installed-equipment images, published anonymously",
+      "referencePeer": "redwave.com"
+    },
+    {
+      "label": "Certifications",
+      "route": "/certifications",
+      "level": 0,
+      "source": "Six supplied certificate pages representing three management systems",
+      "referencePeer": "redwave.com"
+    },
+    {
+      "label": "About",
+      "route": "/about",
+      "level": 0,
+      "source": "Verified company identity, address and business facts",
+      "referencePeer": "hpysorting.com"
+    },
+    {
+      "label": "News",
+      "route": "/news",
+      "level": 0,
+      "source": "Backend publishing capability with honest empty state",
+      "referencePeer": "tomra.com"
+    },
+    {
+      "label": "Contact",
+      "route": "/contact",
+      "level": 0,
+      "source": "Formal email, phone, address and RFQ path",
+      "referencePeer": "steinertglobal.com"
+    }
+  ],
+  "productTaxonomy": [
+    {
+      "customerProduct": "BTFT-S6",
+      "category": "powder-sorter",
+      "route": "/products/btft-s6",
+      "source": "Workbook product row and BTFT-S6.png"
+    },
+    {
+      "customerProduct": "BTKS-1600DW-AI",
+      "category": "ai-mineral-sorter",
+      "route": "/products/btks-1600dw-ai",
+      "source": "Workbook product row and BTKS-1600DW-AI.png"
+    },
+    {
+      "customerProduct": "BTKS-1600D",
+      "category": "dry-rapid-belt-sorter",
+      "route": "/products/btks-1600d",
+      "source": "Workbook product row; image filename BTKS-K1600D retained as reconciled media"
+    },
+    {
+      "customerProduct": "BTKAS-K1600DW",
+      "category": "wet-dry-integrated-belt-sorter",
+      "route": "/products/btkas-k1600dw",
+      "source": "Workbook product row; image filename BTKS-K1600DW retained as reconciled media"
+    }
+  ],
+  "homepageSections": [
+    {
+      "sectionId": "hero",
+      "type": "content",
+      "informationGain": "Three supplied banners communicate product scope, sorting intelligence and industrial application without claiming the depicted generated scenery is the customer facility.",
+      "purpose": "What does Baite supply and where should I go next?",
+      "factSource": "banner/1.jpg; 2.jpg; 3.jpg",
+      "contentType": "customer banners + DOM copy",
+      "desktopStrategy": "Per-slide safe-side copy and manual carousel control",
+      "mobile390Strategy": "Image-first crop; copy moves below image if overlay safety fails",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "steinertglobal.com"
+      ]
+    },
+    {
+      "sectionId": "product-portfolio",
+      "type": "content",
+      "informationGain": "Four verified models are compared by sorting mode and feed/application fit.",
+      "purpose": "Which machine family should I inspect?",
+      "factSource": "Workbook product rows; 机器图片; 产品优化",
+      "contentType": "four linked product cards",
+      "desktopStrategy": "Four-column/2×2 technical product stage, contain-fit machinery",
+      "mobile390Strategy": "Single-column cards with complete machine silhouette",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "tomra.com"
+      ]
+    },
+    {
+      "sectionId": "application-matrix",
+      "type": "content",
+      "informationGain": "Powder, AI mineral, dry rapid-belt and wet/dry workflows are separated as buyer selection paths.",
+      "purpose": "Which operating scenario matches my material and process?",
+      "factSource": "Workbook applications and legacy categories",
+      "contentType": "application matrix + icons",
+      "desktopStrategy": "Matrix links to populated filtered catalog",
+      "mobile390Strategy": "Stacked application entries with touch-safe targets",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "redwave.com"
+      ]
+    },
+    {
+      "sectionId": "sorting-technology",
+      "type": "content",
+      "informationGain": "A restrained process explanation shows feeding, sensing/recognition, decision and separation without unsupported performance data.",
+      "purpose": "How does the sorting workflow work?",
+      "factSource": "Workbook product descriptions and parameters",
+      "contentType": "process diagram + technical copy",
+      "desktopStrategy": "Horizontal process nodes and machine detail image",
+      "mobile390Strategy": "Vertical process nodes with reduced animation",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "steinertglobal.com"
+      ]
+    },
+    {
+      "sectionId": "manufacturing-proof",
+      "type": "content",
+      "informationGain": "Verified 5,000 m² facility, four workshops and 20–30 unit monthly capacity are paired with real factory photographs.",
+      "purpose": "Can this supplier manufacture and assemble the equipment?",
+      "factSource": "Company workbook; 厂区照片优化/1-6.jpg",
+      "contentType": "customer factory photography + verified metrics",
+      "desktopStrategy": "Editorial large image plus supporting grid",
+      "mobile390Strategy": "Text-first summary then full-width photos",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "hpysorting.com"
+      ]
+    },
+    {
+      "sectionId": "quality-certifications",
+      "type": "content",
+      "informationGain": "ISO 9001, ISO 14001 and ISO 45001 are presented as three distinct records, with all six source pages available.",
+      "purpose": "What management-system evidence is current and in scope?",
+      "factSource": "三大体系认证证书.pdf pages 1-6",
+      "contentType": "certificate records + rendered pages",
+      "desktopStrategy": "Three certificate groups, each independently inspectable",
+      "mobile390Strategy": "Stacked certificate groups with full-document access",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "redwave.com"
+      ]
+    },
+    {
+      "sectionId": "installed-cases",
+      "type": "content",
+      "informationGain": "Twelve legacy-site installed-equipment images show application evidence anonymously, without invented client names, places or outcomes.",
+      "purpose": "Is there evidence of equipment in installed environments?",
+      "factSource": "webestsorter.com 合作客户展示 pages 1-2; 12 images",
+      "contentType": "anonymous case gallery",
+      "desktopStrategy": "Editorial grid with neutral captions and case-detail-ready data",
+      "mobile390Strategy": "Single-column gallery; no cropped equipment",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "redwave.com"
+      ]
+    },
+    {
+      "sectionId": "company-story",
+      "type": "content",
+      "informationGain": "Established in 2015, Baite is introduced through verified identity, business scope and facility context rather than generic claims.",
+      "purpose": "Who is the supplier?",
+      "factSource": "Company workbook; business license internal verification; LOGO.png",
+      "contentType": "company copy + logo + facility image",
+      "desktopStrategy": "Split editorial section integrated with the background",
+      "mobile390Strategy": "Text-first with image below, no white photo frame",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "hpysorting.com"
+      ]
+    },
+    {
+      "sectionId": "faq-cooperation",
+      "type": "content",
+      "informationGain": "Supported purchasing facts cover one-unit MOQ, price-by-configuration, inspection and documented lead-time context; warranty content is excluded.",
+      "purpose": "How does a buyer start selection and ordering?",
+      "factSource": "Workbook FAQ excluding warranty row",
+      "contentType": "grouped accordion + cooperation steps",
+      "desktopStrategy": "Balanced grouped FAQ and concise process",
+      "mobile390Strategy": "Progressive accordion, all answers reachable",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "tomra.com"
+      ]
+    },
+    {
+      "sectionId": "contact-rfq",
+      "type": "content",
+      "informationGain": "Formal company introduction, full address, email, phone and a product-aware RFQ form share a balanced conversion section.",
+      "purpose": "How do I request a quote with enough technical context?",
+      "factSource": "User-confirmed info@baiteglobal.com; workbook phone/address",
+      "contentType": "contact details + form",
+      "desktopStrategy": "Balanced company panel and RFQ form, no empty short sidebar",
+      "mobile390Strategy": "Company info then form; CAPTCHA visible",
+      "componentDecision": "Search the component library for the section behavior; adopt only a complete production-suitable package, otherwise use the documented safe implementation.",
+      "referencePeers": [
+        "steinertglobal.com"
+      ]
+    }
+  ],
+  "editorialGuardrails": [
+    "No warranty or guarantee wording",
+    "No invented customers, locations, results, export markets or certifications",
+    "Banner scenery is not described as the customer factory",
+    "Product images use contain-fit presentation",
+    "News remains backend-driven and empty until published"
+  ]
+}

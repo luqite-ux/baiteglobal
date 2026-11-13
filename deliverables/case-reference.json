@@ -1,0 +1,26 @@
+{
+  "customer": "合肥百特光电科技有限公司",
+  "query": {
+    "industry": "mining machinery / mineral optical sorting",
+    "site_type": "overseas B2B manufacturer",
+    "sort": "rating"
+  },
+  "case_library_result": "NO_MATCH_RETURNED_AND_SCRIPT_NETWORK_DEFERRED",
+  "case_library_receipt": "D:\\Cursor\\Grand\\dulizhan\\baiteglobal\\deliverables\\case-query-failed-3d84d143-636a-4471-8b85-56a771a636d3.json",
+  "selected_cases": [],
+  "external_references": [
+    "https://steinertglobal.com/applications/mining/ore-sorting/",
+    "https://www.tomra.com/en-ie/mining/products",
+    "https://redwave.com/en/solutions/mining",
+    "https://hpysorting.com/en/products"
+  ],
+  "adoption": [
+    "Use a buyer-first product portfolio with visible model families and application fit.",
+    "Separate technology explanation, mineral applications, manufacturing proof and certification trust instead of combining them into generic cards.",
+    "Use clear product-detail specification tables and inquiry paths tied to the current product."
+  ],
+  "not_copied": [
+    "No competitor claims, metrics, customer names, partner logos, product imagery or proprietary terminology are copied.",
+    "No external case result is represented as Hefei Baite performance evidence."
+  ]
+}

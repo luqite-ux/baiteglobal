@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "customerIndustry": "optical mineral sorting machinery",
+  "products": [
+    "BTFT-S6 powder sorter",
+    "BTKS-1600DW-AI AI mineral sorter",
+    "BTKS-1600D dry rapid belt sorter",
+    "BTKAS-K1600DW wet and dry integrated rapid belt sorter"
+  ],
+  "targetBuyers": [
+    "mineral-processing plant procurement",
+    "mine engineering and technical selection teams",
+    "equipment distributors evaluating a supplier"
+  ],
+  "peers": [
+    {
+      "name": "STEINERT",
+      "url": "https://steinertglobal.com/",
+      "source": "web",
+      "normalizedDomain": "steinertglobal.com",
+      "pagesReviewed": [
+        {
+          "kind": "home",
+          "url": "https://steinertglobal.com/",
+          "observation": "Application-led mining navigation",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/steinertglobal-com.txt",
+            "sha256": "e4def4ee017dfa854d0e28a71de5a47e016857720d148490a06a155db71ff852"
+          }
+        },
+        {
+          "kind": "navigation",
+          "url": "https://steinertglobal.com/applications/mining/ore-sorting/",
+          "observation": "Ore-sorting decision content before product links",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/steinertglobal-com.txt",
+            "sha256": "e4def4ee017dfa854d0e28a71de5a47e016857720d148490a06a155db71ff852"
+          }
+        },
+        {
+          "kind": "products",
+          "url": "https://steinertglobal.com/applications/mining/ore-sorting/",
+          "observation": "Clear separation of process context and equipment routes",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/steinertglobal-com.txt",
+            "sha256": "e4def4ee017dfa854d0e28a71de5a47e016857720d148490a06a155db71ff852"
+          }
+        }
+      ],
+      "overseasEvidence": {
+        "country": "Germany",
+        "whyCompetitor": "Public English-language industrial sorting site serving overseas mining buyers.",
+        "sourceUrl": "https://steinertglobal.com/"
+      },
+      "homeSections": [
+        "mining applications",
+        "ore sorting context",
+        "technology proof",
+        "product routes",
+        "contact"
+      ],
+      "navigation": [
+        "Industries",
+        "Applications",
+        "Products",
+        "Company",
+        "Contact"
+      ],
+      "productTaxonomy": [
+        "ore sorting",
+        "sensor sorting",
+        "mining applications"
+      ],
+      "adopt": [
+        "Application-first explanation",
+        "Technology evidence before enquiry"
+      ],
+      "reject": [
+        "Competitor performance claims",
+        "Competitor imagery and terminology"
+      ],
+      "evidence": [
+        {
+          "url": "https://steinertglobal.com/",
+          "observation": "Application-led mining navigation"
+        },
+        {
+          "url": "https://steinertglobal.com/applications/mining/ore-sorting/",
+          "observation": "Ore-sorting decision content before product links"
+        },
+        {
+          "url": "https://steinertglobal.com/applications/mining/ore-sorting/",
+          "observation": "Clear separation of process context and equipment routes"
+        }
+      ]
+    },
+    {
+      "name": "TOMRA Mining",
+      "url": "https://www.tomra.com/en-ie/mining",
+      "source": "web",
+      "normalizedDomain": "tomra.com",
+      "pagesReviewed": [
+        {
+          "kind": "home",
+          "url": "https://www.tomra.com/en-ie/mining",
+          "observation": "Portfolio grouped by buyer use case",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/tomra-com.txt",
+            "sha256": "194fd7aa57c0937a4b51fc83e9b9ec5fb6edf2a8b3ba846156c4f1260fdaac94"
+          }
+        },
+        {
+          "kind": "navigation",
+          "url": "https://www.tomra.com/en-ie/mining",
+          "observation": "Technology and product navigation remain separate",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/tomra-com.txt",
+            "sha256": "194fd7aa57c0937a4b51fc83e9b9ec5fb6edf2a8b3ba846156c4f1260fdaac94"
+          }
+        },
+        {
+          "kind": "products",
+          "url": "https://www.tomra.com/en-ie/mining/products",
+          "observation": "Product summaries expose concise selection cues",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/tomra-com.txt",
+            "sha256": "194fd7aa57c0937a4b51fc83e9b9ec5fb6edf2a8b3ba846156c4f1260fdaac94"
+          }
+        }
+      ],
+      "overseasEvidence": {
+        "country": "Norway",
+        "whyCompetitor": "Public English-language industrial sorting site serving overseas mining buyers.",
+        "sourceUrl": "https://www.tomra.com/en-ie/mining"
+      },
+      "homeSections": [
+        "mining offer",
+        "sorting technology",
+        "products",
+        "applications",
+        "contact"
+      ],
+      "navigation": [
+        "Mining",
+        "Products",
+        "Applications",
+        "News",
+        "Contact"
+      ],
+      "productTaxonomy": [
+        "mining products",
+        "sorting systems",
+        "applications"
+      ],
+      "adopt": [
+        "Comparable model cards",
+        "Concise technical selection cues"
+      ],
+      "reject": [
+        "Global-scale metrics not supplied by this customer",
+        "Competitor customer stories"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.tomra.com/en-ie/mining",
+          "observation": "Portfolio grouped by buyer use case"
+        },
+        {
+          "url": "https://www.tomra.com/en-ie/mining",
+          "observation": "Technology and product navigation remain separate"
+        },
+        {
+          "url": "https://www.tomra.com/en-ie/mining/products",
+          "observation": "Product summaries expose concise selection cues"
+        }
+      ]
+    },
+    {
+      "name": "REDWAVE",
+      "url": "https://redwave.com/en/",
+      "source": "web",
+      "normalizedDomain": "redwave.com",
+      "pagesReviewed": [
+        {
+          "kind": "home",
+          "url": "https://redwave.com/en/",
+          "observation": "Mineral groups are visibly segmented",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/redwave-com.txt",
+            "sha256": "e96a57d0f86200e62a25b9e3e01e4534ad49c4d2460e364ad21e19921b3384d9"
+          }
+        },
+        {
+          "kind": "navigation",
+          "url": "https://redwave.com/en/solutions/mining",
+          "observation": "Technology, applications and testing are distinct",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/redwave-com.txt",
+            "sha256": "e96a57d0f86200e62a25b9e3e01e4534ad49c4d2460e364ad21e19921b3384d9"
+          }
+        },
+        {
+          "kind": "products",
+          "url": "https://redwave.com/en/products/redwave-rox/",
+          "observation": "Enquiry follows the technical decision content",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/redwave-com.txt",
+            "sha256": "e96a57d0f86200e62a25b9e3e01e4534ad49c4d2460e364ad21e19921b3384d9"
+          }
+        }
+      ],
+      "overseasEvidence": {
+        "country": "Austria",
+        "whyCompetitor": "Public English-language industrial sorting site serving overseas mining buyers.",
+        "sourceUrl": "https://redwave.com/en/"
+      },
+      "homeSections": [
+        "mining solution",
+        "materials",
+        "sorting technology",
+        "test capability",
+        "product",
+        "contact"
+      ],
+      "navigation": [
+        "Solutions",
+        "Products",
+        "Technology",
+        "Company",
+        "Contact"
+      ],
+      "productTaxonomy": [
+        "mining minerals",
+        "sensor sorting",
+        "product platform"
+      ],
+      "adopt": [
+        "Mineral application matrix",
+        "Distinct technology and certification evidence"
+      ],
+      "reject": [
+        "Unverified test-center services",
+        "Competitor product architecture"
+      ],
+      "evidence": [
+        {
+          "url": "https://redwave.com/en/",
+          "observation": "Mineral groups are visibly segmented"
+        },
+        {
+          "url": "https://redwave.com/en/solutions/mining",
+          "observation": "Technology, applications and testing are distinct"
+        },
+        {
+          "url": "https://redwave.com/en/products/redwave-rox/",
+          "observation": "Enquiry follows the technical decision content"
+        }
+      ]
+    },
+    {
+      "name": "HPY Sorting",
+      "url": "https://hpysorting.com/",
+      "source": "web",
+      "normalizedDomain": "hpysorting.com",
+      "pagesReviewed": [
+        {
+          "kind": "home",
+          "url": "https://hpysorting.com/",
+          "observation": "Product families use buyer-purpose names",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/hpysorting-com.txt",
+            "sha256": "469c9f875ffd989ce3c2cbffa47ebce65e3fa868d7fbb6d8b792ddfe4e253066"
+          }
+        },
+        {
+          "kind": "navigation",
+          "url": "https://hpysorting.com/en/",
+          "observation": "Manufacturing and R&D proof are visible",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/hpysorting-com.txt",
+            "sha256": "469c9f875ffd989ce3c2cbffa47ebce65e3fa868d7fbb6d8b792ddfe4e253066"
+          }
+        },
+        {
+          "kind": "products",
+          "url": "https://hpysorting.com/en/products",
+          "observation": "Portfolio navigation supports quick comparison",
+          "checkedAt": "2026-11-13T04:14:00Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/hpysorting-com.txt",
+            "sha256": "469c9f875ffd989ce3c2cbffa47ebce65e3fa868d7fbb6d8b792ddfe4e253066"
+          }
+        }
+      ],
+      "overseasEvidence": {
+        "country": "China (overseas-facing English site)",
+        "whyCompetitor": "Public English-language industrial sorting site serving overseas mining buyers.",
+        "sourceUrl": "https://hpysorting.com/"
+      },
+      "homeSections": [
+        "hero",
+        "product families",
+        "applications",
+        "manufacturing",
+        "company",
+        "contact"
+      ],
+      "navigation": [
+        "Home",
+        "Products",
+        "Solutions",
+        "About",
+        "News",
+        "Contact"
+      ],
+      "productTaxonomy": [
+        "ore sorting",
+        "mineral processing",
+        "product families"
+      ],
+      "adopt": [
+        "Industrial portfolio rhythm",
+        "Manufacturing proof with real imagery"
+      ],
+      "reject": [
+        "Unsupported R&D claims",
+        "Competitor certificates, customers and metrics"
+      ],
+      "evidence": [
+        {
+          "url": "https://hpysorting.com/",
+          "observation": "Product families use buyer-purpose names"
+        },
+        {
+          "url": "https://hpysorting.com/en/",
+          "observation": "Manufacturing and R&D proof are visible"
+        },
+        {
+          "url": "https://hpysorting.com/en/products",
+          "observation": "Portfolio navigation supports quick comparison"
+        }
+      ]
+    }
+  ],
+  "caseIntake": []
+}

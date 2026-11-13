@@ -1,0 +1,43 @@
+{
+  "pages": {
+    "home": {
+      "order": [
+        "hero",
+        "seo"
+      ],
+      "modules": {
+        "hero": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "WCBEST optical sorting"
+            },
+            "title": {
+              "en": "Optical Sorting Systems for Mineral Processing"
+            },
+            "body": {
+              "en": "Four independent sorting models for powder, AI-assisted, dry belt and wet-and-dry material workflows, built by Hefei Baite Optoelectronics."
+            },
+            "primary_label": {
+              "en": "Explore Sorters"
+            },
+            "secondary_label": {
+              "en": "Request a Quote"
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Optical Mineral Sorting Machinery | WCBEST"
+            },
+            "description": {
+              "en": "Explore four WCBEST optical sorting paths for powder, variable ore, dry feed and mixed wet-and-dry feed."
+            }
+          }
+        }
+      }
+    }
+  }
+}

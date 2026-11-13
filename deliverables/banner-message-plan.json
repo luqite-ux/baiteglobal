@@ -1,0 +1,39 @@
+[
+  {
+    "banner_id": "banner-1",
+    "message_role": "portfolio",
+    "headline": "Optical Sorting Systems for Mineral Processing",
+    "supporting_copy": "Explore powder, AI-assisted and rapid belt sorting equipment for different feed and operating conditions.",
+    "evidence_refs": [
+      "banner/1.jpg",
+      "workbook products 1-4"
+    ],
+    "primary_cta_label": "Explore Products",
+    "primary_cta_target": "/products"
+  },
+  {
+    "banner_id": "banner-2",
+    "message_role": "selection",
+    "headline": "Choose the Sorting Path Around Your Material",
+    "supporting_copy": "Compare verified model specifications, feed ranges and application conditions before discussing configuration.",
+    "evidence_refs": [
+      "banner/2.jpg",
+      "workbook specifications"
+    ],
+    "primary_cta_label": "View Applications",
+    "primary_cta_target": "/applications"
+  },
+  {
+    "banner_id": "banner-3",
+    "message_role": "manufacturing",
+    "headline": "Manufacturing Evidence You Can Review",
+    "supporting_copy": "See the supplied facility photographs, management-system certificates and equipment records behind the company profile.",
+    "evidence_refs": [
+      "banner/3.jpg",
+      "factory photos",
+      "certificate PDF"
+    ],
+    "primary_cta_label": "Review Capabilities",
+    "primary_cta_target": "/manufacturing"
+  }
+]
