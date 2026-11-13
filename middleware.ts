@@ -1,9 +1,9 @@
 import { NextResponse, type NextRequest } from 'next/server'
 import { SESSION_COOKIE } from '@/lib/admin-session'
-import { PREVIEW_COOKIE } from '@/lib/site-content/site-content'
 import { protectPreviewResponse } from '@/lib/site-content/preview-protection'
+import { isServiceGuardExcludedPath, isWebsiteServiceAvailable } from '@/lib/service-status'
 
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
   const isPublicAdmin = pathname.startsWith('/admin/login') || pathname.startsWith('/admin/logout')
   let response: NextResponse
@@ -13,9 +13,10 @@ export function middleware(request: NextRequest) {
     url.searchParams.set('reason', 'unauthorized')
     response = NextResponse.redirect(url)
   } else {
-    response = NextResponse.next()
+    const expired = !isServiceGuardExcludedPath(pathname) && !await isWebsiteServiceAvailable()
+    response = expired ? NextResponse.rewrite(new URL('/service-expired', request.url)) : NextResponse.next()
   }
-  protectPreviewResponse(response.headers, request.cookies.has(PREVIEW_COOKIE))
+  protectPreviewResponse(response.headers, request.cookies.has('__Host-hq-site-preview'))
   return response
 }
 
