@@ -150,6 +150,37 @@
     @apply rounded-lg border border-line bg-white;
   }
 
+  .certificate-marquee {
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  }
+  .certificate-marquee-track {
+    display: flex;
+    width: max-content;
+    animation: certificate-marquee-left 72s linear infinite;
+  }
+  .certificate-marquee-set {
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+  .certificate-marquee-card {
+    display: block;
+    width: clamp(15rem, 22vw, 20rem);
+    flex: none;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: #fff;
+    box-shadow: 0 16px 40px rgb(16 37 44 / 0.08);
+    transition: border-color 180ms ease, transform 180ms ease;
+  }
+  .certificate-marquee-card:hover,
+  .certificate-marquee-card:focus-visible {
+    border-color: var(--teal);
+    transform: translateY(-3px);
+  }
+
   .product-stage {
     position: relative;
     isolation: isolate;
@@ -187,6 +218,17 @@
   .skip-link {
     @apply fixed left-3 top-3 z-[100] -translate-y-20 rounded-md bg-ink px-4 py-2 text-sm font-semibold text-white focus:translate-y-0;
   }
+}
+
+@keyframes certificate-marquee-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .certificate-marquee { overflow-x: auto; mask-image: none; }
+  .certificate-marquee-track { animation: none; }
+  .certificate-marquee-set[aria-hidden='true'] { display: none; }
 }
 
 @media (max-width: 1023px) {
