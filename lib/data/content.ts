@@ -37,7 +37,7 @@ export const applications: Application[] = [
     anchor: 'ai-mineral-sorting',
     icon: 'ai',
     title: en('AI mineral sorting'),
-    cue: en('Variable ore that is easier to show than to describe'),
+    cue: en('Variable ore best assessed from representative samples'),
     chooseWhen: [
       en('The appearance of your ore varies from lot to lot.'),
       en('Your accept and reject criteria are easier to define from sample material than from fixed rules.'),

@@ -49,5 +49,7 @@ export const primaryNav: NavItem[] = [
 export const contactNav: NavItem = { label: 'Contact', href: '/contact' }
 
 export function absoluteUrl(path = '/') {
-  return `${site.url}${path === '/' ? '' : path}`
+  if (/^https?:\/\//i.test(path)) return path
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`
+  return `${site.url}${normalizedPath === '/' ? '' : normalizedPath}`
 }

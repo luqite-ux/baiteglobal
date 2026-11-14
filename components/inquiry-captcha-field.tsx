@@ -66,7 +66,7 @@ export function InquiryCaptchaField({
       <label htmlFor={answerName} className="mb-2 block text-sm font-medium">
         Verification code
       </label>
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="grid gap-3 sm:grid-cols-[10rem_minmax(9rem,1fr)_auto] sm:items-center">
         <div className="flex h-14 w-40 items-center justify-center overflow-hidden rounded-lg border bg-slate-50">
           {challenge ? (
             // The SVG is generated from a fixed server-side template and rendered as an image, not injected as HTML.
@@ -97,8 +97,8 @@ export function InquiryCaptchaField({
           spellCheck={false}
           inputMode="text"
           aria-describedby={error ? `${answerName}-error` : undefined}
-          className="h-11 w-32 rounded-lg border border-slate-300 bg-white px-3 text-base uppercase tracking-[0.25em] text-slate-950 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 disabled:cursor-not-allowed disabled:bg-slate-100"
-          placeholder="Enter code"
+          className="h-11 w-full min-w-0 rounded-lg border border-slate-300 bg-white px-3 text-base uppercase tracking-[0.12em] text-slate-950 outline-none placeholder:normal-case placeholder:tracking-normal focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 disabled:cursor-not-allowed disabled:bg-slate-100"
+          placeholder="Enter 4 characters"
         />
         <button
           type="button"
