@@ -42,6 +42,7 @@ function CertificateMarquee() {
               src={page.src}
               alt={duplicate ? '' : page.alt}
               fill
+              loading="eager"
               sizes="(max-width: 640px) 68vw, 20rem"
               className="object-contain"
             />
