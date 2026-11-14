@@ -12,7 +12,6 @@ export function SiteFooter() {
         <div>
           <BrandLogo />
           <p className="mt-5 max-w-xs text-sm font-semibold text-ink">{site.company}</p>
-          <p className="mt-1 text-sm text-ink-soft">{site.companyZh}</p>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-soft">
             Optical mineral sorting machinery designed, assembled and sold from Hefei, Anhui, China.
           </p>

@@ -57,7 +57,7 @@ export function organizationSchema() {
     '@id': `${site.url}/#organization`,
     name: site.company,
     legalName: site.company,
-    alternateName: [site.name, site.companyZh],
+    alternateName: site.name,
     url: site.url,
     logo: absoluteUrl(site.logo),
     email: site.email,

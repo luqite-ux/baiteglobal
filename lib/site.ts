@@ -1,7 +1,6 @@
 export const site = {
   name: 'WCBEST',
   company: 'Hefei Baite Optoelectronics Technology Co., Ltd.',
-  companyZh: '合肥百特光电科技有限公司',
   domain: 'baiteglobal.com',
   url: 'https://baiteglobal.com',
   email: 'info@baiteglobal.com',
