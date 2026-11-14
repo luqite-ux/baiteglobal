@@ -78,9 +78,10 @@ export type InstalledCase = {
   image?: { src: string; alt: string }
 }
 
-export const installedCases: InstalledCase[] = Array.from({ length: 12 }, (_, index) => {
+export const installedCases: InstalledCase[] = Array.from({ length: 11 }, (_, index) => {
   const number = String(index + 1).padStart(2, '0')
-  return { id: `installed-${number}`, number, image: { src: `/images/cases/case-${number}.jpg`, alt: `WCBEST optical sorting equipment in an installed customer application, case ${number}` } }
+  const sourceNumber = String(index + 2).padStart(2, '0')
+  return { id: `installed-${number}`, number, image: { src: `/images/cases/case-${sourceNumber}.jpg`, alt: `WCBEST optical sorting equipment in an installed customer application, case ${number}` } }
 })
 
 export type FactoryPhoto = {
