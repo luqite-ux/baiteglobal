@@ -84,7 +84,7 @@ export const applications: Application[] = [
       en('Size range of the material'),
       en('Output you need to process'),
     ],
-    productSlug: 'btkas-k1600dw',
+    productSlug: 'btks-k1600dw',
   },
 ]
 
@@ -209,7 +209,7 @@ export const faqGroups: FaqGroup[] = [
         id: 'choose-model',
         question: en('How do I choose between the four models?'),
         answer: en(
-          'Start from your material. Fine powder in the 16–120 mesh range points to the BTFT-S6; variable ore points to the AI-assisted BTKS-1600DW-AI; dry belt-fed feed points to the BTKS-1600D; and feed that is both dry and wet points to the BTKAS-K1600DW. Our team can confirm the match from your samples.',
+          'Start from your material. Fine powder in the 16–120 mesh range points to the BTFT-S6; variable ore points to the AI-assisted BTKS-1600DW-AI; dry belt-fed feed points to the BTKS-1600D; and feed that is both dry and wet points to the BTKS-K1600DW. Our team can confirm the match from your samples.',
         ),
       },
       {
@@ -232,7 +232,7 @@ export const faqGroups: FaqGroup[] = [
 
 export const company = {
   story: [
-    'Hefei Baite Optoelectronics Technology Co., Ltd. designs, develops, assembles and sells ore color sorting machines under the WCBEST brand.',
+    'Hefei Baite Optoelectronics Technology Co., Ltd. designs, develops, assembles and sells ore color sorting machines under the WEBEST brand.',
     'The company was established on 9 November 2015 and builds its machines in Shangpai Town, Feixi County, Hefei, Anhui, China.',
     'Our range is organised around the material you need to sort: powder, variable ore, dry feed, and mixed wet and dry feed.',
   ],

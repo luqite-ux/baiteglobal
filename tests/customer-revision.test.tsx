@@ -3,11 +3,15 @@ import assert from 'node:assert/strict'
 import { renderToStaticMarkup } from 'react-dom/server'
 
 import ProductPage from '../app/products/[slug]/page'
+import CasesPage from '../app/cases/page'
 import ContactPage from '../app/contact/page'
 import { HeroCarousel } from '../components/hero-carousel'
 import { heroSlides } from '../lib/data/hero'
+import { products } from '../lib/data/products'
+import { featuredVideoCase, installedCases } from '../lib/data/proof'
+import { site } from '../lib/site'
 
-const productSlugs = ['btft-s6', 'btks-1600dw-ai', 'btks-1600d', 'btkas-k1600dw']
+const productSlugs = ['btft-s6', 'btks-1600dw-ai', 'btks-1600d', 'btks-k1600dw']
 
 for (const slug of productSlugs) {
   test(`${slug} detail renders one product image without a repeated scene`, async () => {
@@ -36,4 +40,22 @@ test('contact page renders verified guidance and an email route for sample photo
   assert.match(html, /Material type and representative sample photos/)
   assert.match(html, /Send sample photos to/)
   assert.match(html, /mailto:info@baiteglobal\.com/)
+})
+
+test('brand spelling uses WEBEST and model uses BTKS-K1600DW without legacy typos', () => {
+  const serialized = JSON.stringify({ site, heroSlides, products, installedCases, featuredVideoCase })
+
+  assert.equal(site.name, 'WEBEST')
+  assert.doesNotMatch(serialized, /WCBEST/i)
+  assert.doesNotMatch(serialized, /BTKAS-K1600DW/i)
+  assert.match(serialized, /BTKS-K1600DW/)
+})
+
+test('cases page renders featured promotional video case with R2 mp4 and poster', () => {
+  const html = renderToStaticMarkup(<CasesPage />)
+
+  assert.match(html, /<video\b/)
+  assert.match(html, /webest-promo-case-78c2fd9047a82c0b\.mp4/)
+  assert.match(html, /webest-promo-case-poster-23e47a699a8ad0d2\.jpg/)
+  assert.doesNotMatch(html, /WCBEST/i)
 })

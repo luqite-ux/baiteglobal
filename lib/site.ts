@@ -1,5 +1,5 @@
 export const site = {
-  name: 'WCBEST',
+  name: 'WEBEST',
   company: 'Hefei Baite Optoelectronics Technology Co., Ltd.',
   domain: 'baiteglobal.com',
   url: 'https://baiteglobal.com',
@@ -8,7 +8,7 @@ export const site = {
   phoneHref: 'tel:+8613705608666',
   tagline: 'Optical mineral sorting machinery',
   description:
-    'WCBEST optical mineral sorting machinery from Hefei Baite Optoelectronics: powder sorter, AI mineral sorter, dry rapid belt sorter and wet & dry integrated belt sorter.',
+    'WEBEST optical mineral sorting machinery from Hefei Baite Optoelectronics: powder sorter, AI mineral sorter, dry rapid belt sorter and wet & dry integrated belt sorter.',
   address: {
     full: '200 m north of the intersection of Chuangxin Avenue and Juxing Road, Shangpai Town, Feixi County, Hefei, Anhui, China',
     street: '200 m north of the intersection of Chuangxin Avenue and Juxing Road',
@@ -28,7 +28,7 @@ export const site = {
     monthlyCapacity: '20–30',
   },
   scope: 'Design, development, assembly and sales of ore color sorting machines',
-  logo: '/brand/wcbest-logo.png',
+  logo: '/brand/webest-logo.png',
   ogImage: '/images/hero/banner-3.jpg',
 } as const
 

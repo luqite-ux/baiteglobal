@@ -7,7 +7,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* WCBEST palette derived from the logo teal and orange */
+  /* WEBEST palette derived from the logo teal and orange */
   --ink: #10252c;
   --ink-soft: #46595f;
   --teal: #007c91;

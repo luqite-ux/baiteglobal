@@ -48,7 +48,7 @@ export const products: Product[] = [
       'A dedicated optical sorter for fine powder material in the 16–120 mesh range.',
     ),
     description: en(
-      'The BTFT-S6 is the WCBEST sorter for fine material. It is built around powder-size feed, with a stated working range of 16–120 mesh, and is the model to start with when your material is finer than a conventional belt-fed sorter is designed to handle.',
+      'The BTFT-S6 is the WEBEST sorter for fine material. It is built around powder-size feed, with a stated working range of 16–120 mesh, and is the model to start with when your material is finer than a conventional belt-fed sorter is designed to handle.',
     ),
     highlights: [
       en('Designed for powder-size feed in the 16–120 mesh range'),
@@ -62,7 +62,7 @@ export const products: Product[] = [
     },
     image: {
       src: '/images/products/btft-s6.png',
-      alt: 'WCBEST BTFT-S6 Powder Sorter, a white and teal optical sorting machine with a front control screen',
+      alt: 'WEBEST BTFT-S6 Powder Sorter, a white and teal optical sorting machine with a front control screen',
     },
     inquiryNote: en(
       'Tell us the mesh distribution of your material and the output you need to separate.',
@@ -78,7 +78,7 @@ export const products: Product[] = [
       'An AI-assisted mineral sorter for material that is easier to recognise from samples than to describe with fixed rules.',
     ),
     description: en(
-      'The BTKS-1600DW-AI adds AI recognition to the WCBEST sorting line-up. It is the model to consider when your ore varies in appearance and your sorting criteria are best defined by showing the machine representative material.',
+      'The BTKS-1600DW-AI adds AI recognition to the WEBEST sorting line-up. It is the model to consider when your ore varies in appearance and your sorting criteria are best defined by showing the machine representative material.',
     ),
     highlights: [
       en('AI recognition model for variable mineral feed'),
@@ -91,7 +91,7 @@ export const products: Product[] = [
     },
     image: {
       src: '/images/products/btks-1600dw-ai.png',
-      alt: 'WCBEST BTKS-1600DW-AI AI Mineral Sorter, a black and teal sorting machine with an overhead sensing frame',
+      alt: 'WEBEST BTKS-1600DW-AI AI Mineral Sorter, a black and teal sorting machine with an overhead sensing frame',
     },
     inquiryNote: en(
       'Send sample material or photographs and describe which pieces you want kept and which you want removed.',
@@ -107,7 +107,7 @@ export const products: Product[] = [
       'A belt-fed rapid sorter for dry mineral feed.',
     ),
     description: en(
-      'The BTKS-1600D is the WCBEST dry rapid belt sorter. It is the straightforward choice when your feed arrives dry and you want belt-fed sorting without wet-processing features.',
+      'The BTKS-1600D is the WEBEST dry rapid belt sorter. It is the straightforward choice when your feed arrives dry and you want belt-fed sorting without wet-processing features.',
     ),
     highlights: [
       en('Belt-fed rapid sorting for dry feed'),
@@ -120,23 +120,23 @@ export const products: Product[] = [
     },
     image: {
       src: '/images/products/btks-1600d.png',
-      alt: 'WCBEST BTKS-1600D Dry Rapid Belt Sorter, an orange and black belt sorting machine with a side discharge hopper',
+      alt: 'WEBEST BTKS-1600D Dry Rapid Belt Sorter, an orange and black belt sorting machine with a side discharge hopper',
     },
     inquiryNote: en(
       'Tell us the size range and moisture condition of your dry feed and the volume you plan to process.',
     ),
   },
   {
-    slug: 'btkas-k1600dw',
-    model: 'BTKAS-K1600DW',
-    name: en('BTKAS-K1600DW Wet & Dry Integrated Rapid Belt Sorter'),
+    slug: 'btks-k1600dw',
+    model: 'BTKS-K1600DW',
+    name: en('BTKS-K1600DW Wet & Dry Integrated Rapid Belt Sorter'),
     pathId: 'wet-dry',
     pathLabel: en('Wet & dry integrated sorting'),
     summary: en(
       'An integrated rapid belt sorter for operations that handle both dry and wet feed.',
     ),
     description: en(
-      'The BTKAS-K1600DW combines dry and wet handling in one integrated belt sorter. Choose it when feed moisture changes between dry and wet conditions and you would rather run one machine than two.',
+      'The BTKS-K1600DW combines dry and wet handling in one integrated belt sorter. Choose it when feed moisture changes between dry and wet conditions and you would rather run one machine than two.',
     ),
     highlights: [
       en('One integrated machine for dry and wet feed'),
@@ -148,8 +148,8 @@ export const products: Product[] = [
       listedValue: '3.5T',
     },
     image: {
-      src: '/images/products/btkas-k1600dw.png',
-      alt: 'WCBEST BTKAS-K1600DW Wet and Dry Integrated Rapid Belt Sorter, an orange and black belt sorter with a control screen and overhead sensing frame',
+      src: '/images/products/btks-k1600dw.png',
+      alt: 'WEBEST BTKS-K1600DW Wet and Dry Integrated Rapid Belt Sorter, an orange and black belt sorter with a control screen and overhead sensing frame',
     },
     inquiryNote: en(
       'Describe how often your feed is wet and how often it is dry, and the size range of the material.',

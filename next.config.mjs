@@ -4,6 +4,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/products/btkas-k1600dw',
+        destination: '/products/btks-k1600dw',
+        permanent: true,
+      },
+    ]
+  },
   async rewrites() {
     if (!adminUrl) return []
     return { afterFiles: [

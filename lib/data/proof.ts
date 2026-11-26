@@ -71,6 +71,33 @@ export const certificates: Certificate[] = [
   },
 ]
 
+export type VideoCase = {
+  id: string
+  eyebrow: string
+  title: string
+  description: string
+  src: string
+  poster: string
+  durationLabel: string
+  highlights: string[]
+}
+
+export const featuredVideoCase: VideoCase = {
+  id: 'webest-promo-case',
+  eyebrow: 'Video case · 01:02',
+  title: 'WEBEST optical mineral sorting in operation',
+  description:
+    'Watch Hefei Baite Optoelectronics (WEBEST) optical sorting equipment operating on mineral materials, including potassium feldspar, barite and other mineral processing feeds.',
+  src: 'https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/baiteglobal/videos/webest-promo-case-78c2fd9047a82c0b.mp4',
+  poster: 'https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/baiteglobal/videos/webest-promo-case-poster-23e47a699a8ad0d2.jpg',
+  durationLabel: '01:02',
+  highlights: [
+    'Real field operation of WEBEST belt-fed optical sorting equipment',
+    'Covers mineral feed examples including potassium feldspar and barite',
+    'Built in Hefei by Hefei Baite Optoelectronics Technology Co., Ltd. (established 2015)',
+  ],
+}
+
 export type InstalledCase = {
   id: string
   number: string
@@ -81,7 +108,7 @@ export type InstalledCase = {
 export const installedCases: InstalledCase[] = Array.from({ length: 11 }, (_, index) => {
   const number = String(index + 1).padStart(2, '0')
   const sourceNumber = String(index + 2).padStart(2, '0')
-  return { id: `installed-${number}`, number, image: { src: `/images/cases/case-${sourceNumber}.jpg`, alt: `WCBEST optical sorting equipment in an installed customer application, case ${number}` } }
+  return { id: `installed-${number}`, number, image: { src: `/images/cases/case-${sourceNumber}.jpg`, alt: `WEBEST optical sorting equipment in an installed customer application, case ${number}` } }
 })
 
 export type FactoryPhoto = {

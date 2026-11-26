@@ -20,7 +20,7 @@ export type HeroSlide = {
 export const heroSlides: HeroSlide[] = [
   {
     id: 'optical-sorting-systems',
-    eyebrow: 'WCBEST optical sorting',
+    eyebrow: 'WEBEST optical sorting',
     headline: 'Optical Sorting Systems for Mineral Processing',
     body: 'Four independent sorting models for powder, AI-assisted, dry belt and wet-and-dry material workflows, built by Hefei Baite Optoelectronics.',
     primaryCta: { label: 'Explore Sorters', href: '/products' },
@@ -37,7 +37,7 @@ export const heroSlides: HeroSlide[] = [
     id: 'sorting-path',
     eyebrow: 'Application-led selection',
     headline: 'Choose the Sorting Path Around Your Material',
-    body: 'Start from your feed condition — powder, variable ore, dry or wet — and see which WCBEST model path fits your material.',
+    body: 'Start from your feed condition — powder, variable ore, dry or wet — and see which WEBEST model path fits your material.',
     primaryCta: { label: 'Find Your Sorting Path', href: '/applications' },
     secondaryCta: { label: 'Request a Quote', href: '/contact' },
     image: {
